@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 
 /* Basic */
 
@@ -27,11 +28,7 @@ html {
 body {
   height: 100%;
   background-color: #ffffff;
-  background-image: linear-gradient(
-    30deg,
-    rgba(22, 228, 85, 0.5) 5%,
-    rgba(0, 8, 255, 0.74)
-  );
+  background-image: url("../../images/wallpaper.jpg");
 }
 
 body {
@@ -77,20 +74,17 @@ p {
 }
 
 h1 {
+  font-family: "Abril Fatface", Helvetica, sans-serif;
   color: #313f47;
   line-height: 1.5;
-  margin: 0 0 0.75em 0;
+  font-size: 1.85em;
+  letter-spacing: 0.22em;
+  margin: 0 0 0.525em 0;
 }
 
 h1 a {
   color: inherit;
   text-decoration: none;
-}
-
-h1 {
-  font-size: 1.85em;
-  letter-spacing: 0.22em;
-  margin: 0 0 0.525em 0;
 }
 
 @media screen and (max-width: 480px) {
