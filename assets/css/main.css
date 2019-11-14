@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 /* Basic */
 
@@ -28,12 +28,12 @@ html {
 body {
   height: 100%;
   background-color: #ffffff;
-  background-image: url("../../images/wallpaper.jpg");
+  background-image: url('../../images/wallpaper.jpg');
 }
 
 body {
   color: #414f57;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 300;
   line-height: 2;
@@ -74,7 +74,7 @@ p {
 }
 
 h1 {
-  font-family: "Abril Fatface", Helvetica, sans-serif;
+  font-family: 'Abril Fatface', Helvetica, sans-serif;
   color: #313f47;
   line-height: 1.5;
   font-size: 1.85em;
@@ -108,7 +108,7 @@ h1 a {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 400;
 }
 
@@ -117,7 +117,7 @@ h1 a {
 }
 
 .icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
+  font-family: 'Font Awesome 5 Brands';
 }
 
 ul.icons {
@@ -156,7 +156,7 @@ ul.icons li a:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 400;
 }
 
@@ -216,13 +216,15 @@ ul.icons li a:hover {
 
 #main .avatar img {
   display: block;
+  height: 115px;
+  width: 115px;
   margin: 0 auto;
   border-radius: 100%;
-  box-shadow: 0 0 0 1.5em #ffffff;
+  box-shadow: 0 0 0 1.7em #ffffff;
 }
 
 #main .avatar:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 50%;
